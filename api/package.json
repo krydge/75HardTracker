@@ -1,0 +1,32 @@
+{
+  "name": "75hardapi",
+  "version": "1.0.0",
+  "description": "75 hard api ",
+  "main": "app.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon run app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krydge/75HardTracker.git"
+  },
+  "keywords": [
+    "75",
+    "hard"
+  ],
+  "author": "rydge software -- Kaydon Stubbs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krydge/75HardTracker/issues"
+  },
+  "homepage": "https://github.com/krydge/75HardTracker#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.21",
+    "pg": "^8.10.0"
+  }
+}
